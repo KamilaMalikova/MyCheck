@@ -139,7 +139,7 @@ public class MainActivity extends AppCompatActivity {
     }
     private void sendMail(String text) {
 
-        String mail = "kamilamalikova173@gmail.com";
+        String mail = "yourmail.com";
         String message = text;
         String subject = "Data";
 
