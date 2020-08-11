@@ -47,9 +47,9 @@ public class JavaTelegramApi extends AsyncTask<Void,Void,Void> {
     @Override
     protected Void doInBackground(Void... voids) {
         String urlString = "https://api.telegram.org/bot%s/sendMessage?chat_id=%s&text=%s";
-        String apiToken = "1382023725:AAEXNWrvY63unLDhuBNZosioHXwcZ5Nf9i4";
+        String apiToken = "yourTelegramJavaApi";
 
-        String chatId = "172332001";
+        String chatId = "chatID";
         String text = null;
         try {
             text = URLEncoder.encode(this.message, "UTF-8");
